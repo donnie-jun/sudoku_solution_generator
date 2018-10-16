@@ -8,7 +8,6 @@ class Sudoku:
     def solveSudoku(self,board):
         """
         :type board: List[List[str]]
-        :If board is all blank, all possiblities will be generated one by one
         :rtype: None.
         """
         if self.terminate: return 
@@ -48,8 +47,8 @@ class Sudoku:
              
 generator = Sudoku()
 
-# This Input can be your sudoku, or leave as
-# all blank to generate all possible permutations
+# This Input can be your sudoku, or leave all as
+# blank to generate random possible permutations
 Input = [[".",".",".",".",".",".",".",".","."],
          [".",".",".",".",".",".",".",".","."],
          [".",".",".",".",".",".",".",".","."],
