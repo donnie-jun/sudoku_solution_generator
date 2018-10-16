@@ -45,3 +45,5 @@ Sudoku num.3 found:
 .  
 .  
 .  
+By the way: From Wikipedia: The number of classic 9×9 Sudoku solution grids is 6,670,903,752,021,072,936,960, or approximately 6.67×10^21.  
+So...if we get 1000 solutions per second, it takes only 211,504,312,532 years to get all of them. Let's start!
