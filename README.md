@@ -1,6 +1,12 @@
 ## sudoku_solution_generator
-This simple generator uses the minimum implementation of a backtracking algorithm to continuously generate random sudoku solutions.
+This simple generator uses the minimum implementation of a backtracking algorithm to continuously generate random sudoku solutions.  
 
+                 block =  sum([board[(i//3)*3+x][(j//3)*3:(j//3)*3+3] for x in range(3)],[])  
+                 if n not in board[i] and n not in [board[t][j] for t in range(9)] and n not in block:  
+                     board[i][j] = n  
+                     self.solveSudoku(board)    
+                              
+Output:   
 Sudoku num.1 found:   
 ['8', '5', '3', '9', '7', '4', '2', '6', '1']  
 ['9', '7', '4', '2', '6', '1', '5', '8', '3']  
